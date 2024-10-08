@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make sure the height adjusts to the viewport */
+}
+
+h2 {
+    margin: 10px 0; /* Decrease the margin to save space */
+    color: #fff;
+    font-size: 2rem; /* Slightly smaller font size */
+}
+
+canvas {
+    max-width: 400px; /* Decrease the chart width */
+    max-height: 400px; /* Decrease the chart height */
+    margin: 15px 0; /* Add minimal margin */
+}
